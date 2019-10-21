@@ -1,7 +1,6 @@
----
-layout: post
-title: Setting up Fetch Requests for a Rails API backend
----
+
+# Setting up Fetch Requests for a Rails API backend
+
 
 TLDR;
 ```js

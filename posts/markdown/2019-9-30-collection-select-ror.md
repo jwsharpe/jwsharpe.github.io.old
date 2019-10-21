@@ -1,7 +1,6 @@
----
-layout: post
-title: Using Collection Select in Ruby on Rails
----
+
+# Using Collection Select in Ruby on Rails
+
 
 TLDR;
 ```rb

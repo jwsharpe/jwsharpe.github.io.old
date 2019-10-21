@@ -1,7 +1,6 @@
----
-layout: post
-title: Spinning Up Desktop Apps as a Web Developer using Electron
----
+
+# Spinning Up Desktop Apps as a Web Developer using Electron
+
 
 TLDR;
 ```

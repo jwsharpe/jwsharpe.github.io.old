@@ -1,7 +1,4 @@
----
-layout: post
-title: Creating an adaptive Card Focused webpage using nested CSS-Grid.
----
+# Creating an adaptive Card Focused webpage using nested CSS-Grid.
 
 [CSS Grid](https://en.wikipedia.org/wiki/CSS_grid_layout) is a layout manager that allows for easy implementation of adaptive layouts. Just like Flex-box, this layout manager is built into CSS and is relatively new. And as compared to Flex or Float layouts, I believe that Grid is the most intuitive for CSS novices as it allows programmers a very simplistic model for transferring physical pen-paper prototypes onto website pages.
 
