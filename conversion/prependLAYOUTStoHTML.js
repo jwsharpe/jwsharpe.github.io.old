@@ -1,8 +1,7 @@
 const fs = require("fs");
 
 const LAYOUT_FILE = "../layouts/post.html";
-const POST_FILE =
-  "../posts/markdown/2019-10-15-Setting-Up-Fetch-Requests-For-A-Rails-API-Backend.html";
+const POST_FILE = "../posts/markdown/05.html";
 const FILE_TO_WRITE = "../posts/5.html";
 
 return fs.readFile(LAYOUT_FILE, function(err, buf) {

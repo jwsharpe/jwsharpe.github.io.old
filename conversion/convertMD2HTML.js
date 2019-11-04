@@ -2,8 +2,7 @@ var showdown = require("showdown"),
   fs = require("fs"),
   converter = new showdown.Converter();
 
-const FILE_TO_CONVERT =
-  "../posts/markdown/2019-10-15-Setting-Up-Fetch-Requests-For-A-Rails-API-Backend.md";
+const FILE_TO_CONVERT = "../posts/markdown/05.md";
 const FILE_TO_WRITE = FILE_TO_CONVERT.slice(0, -2) + "html";
 
 //
@@ -12,12 +11,14 @@ new Promise((res, rej) => {
     const html = converter.makeHtml(buf.toString());
     res(html);
   });
-}).then(res => {
-  fs.writeFile(FILE_TO_WRITE, res, e => {
-    if (e) {
-      console.log(e);
-    } else {
-      console.log("Success!");
-    }
-  });
-});
+})
+  .then(res => {
+    fs.writeFile(FILE_TO_WRITE, res, e => {
+      if (e) {
+        console.log(e);
+      } else {
+        console.log("Success!");
+      }
+    });
+  })
+  .catch(console.log);

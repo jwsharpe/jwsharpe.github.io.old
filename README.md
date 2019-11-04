@@ -7,3 +7,6 @@ Currently use
 
 Thing I need to do
 - create a personal website landing page
+
+Process for creating a blog post
+- things
