@@ -8,7 +8,7 @@ Currently use
 Thing I need to do
 - create a personal website landing page
 - hosts the post in a better way
-- create more backend automation for publishing
+- join the scripts to create a single publishing script
 
 The unfortunate current process for creating a blog post
 - create the document in markdown
